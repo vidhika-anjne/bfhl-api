@@ -152,7 +152,7 @@ class BfhlServiceImplTest {
         BfhlRequestDTO request = new BfhlRequestDTO(Arrays.asList("a"));
         BfhlResponseDTO response = bfhlService.processData(request);
 
-        assertEquals("vidhika_anjne_26052005", response.getUserId());
+        assertEquals("vidhika_anjne_25032005", response.getUserId());
         assertEquals("vidhikaanjne230716@acropolis.in", response.getEmail());
         assertEquals("0827CS231294", response.getRollNumber());
     }
