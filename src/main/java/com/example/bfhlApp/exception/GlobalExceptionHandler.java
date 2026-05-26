@@ -36,7 +36,7 @@ public class GlobalExceptionHandler {
     private BfhlResponseDTO buildErrorResponse() {
         return BfhlResponseDTO.builder()
                 .isSuccess(false)
-                .userId("vidhika_anjne_26052005")
+                .userId("vidhika_anjne_25032005")
                 .email("vidhikaanjne230716@acropolis.in")
                 .rollNumber("0827CS231294")
                 .oddNumbers(Collections.emptyList())

@@ -39,7 +39,7 @@ class BfhlControllerTest {
                         .content(objectMapper.writeValueAsString(request)))
                 .andExpect(status().isOk())
                 .andExpect(jsonPath("$.is_success").value(true))
-                .andExpect(jsonPath("$.user_id").value("vidhika_anjne_26052005"))
+                .andExpect(jsonPath("$.user_id").value("vidhika_anjne_25032005"))
                 .andExpect(jsonPath("$.email").value("vidhikaanjne230716@acropolis.in"))
                 .andExpect(jsonPath("$.roll_number").value("0827CS231294"))
                 .andExpect(jsonPath("$.odd_numbers[0]").value("1"))
